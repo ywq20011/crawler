@@ -1,6 +1,6 @@
 maven坐标
 
-<dependency>
+\<dependency\>
 
 	<groupId>com.hlg</groupId>
 	
@@ -8,4 +8,4 @@ maven坐标
 	
 	<version>2.2.0-SNAPSHOT</version>
 	
-</dependency>
+\</dependency\>
