@@ -1,42 +1,46 @@
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\RandomGenerator.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\TemplateParser.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\downloader\HttpClientDownloader.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\rmimonitor\ManualSpiderRMI.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\UrlUtils.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\bo\FailedUrlBo.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\bo\Speed.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\processor\ExtractHtmlPageProcessor.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\proxy\RequestParams.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\bo\ClusterAddress.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\bo\ErrorMessage.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\rmimonitor\QuartzMonitorRMI.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\utils\MailUtil.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\WebgleanerMonitorCorrector.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\HttpClientUtils.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\LimitQueue.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\pipeline\FilePipeline.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\rmimonitor\ManualSpiderRMIImpl.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\BeanUtils.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\bo\Monitor.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\proxy\ProxyGetter.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\bo\SpiderType.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\MongoClientSingleton.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\useragent\UserAgentStrategy.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\useragent\UserAgentsByFile.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\SpiderConfigUtils.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\config\taskgenerator\TaskGenerator.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\downloader\LinesumSeleniumDownloader.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\WebgleanerMonitorListener.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\processor\SpecifyPathPageProcessor.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\proxy\ProxyPoolContext.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\downloader\AbstractDownloader.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\utils\UserAgentContext.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\WebgleanerMonitorCorrectorRemote.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\downloader\WebDriverPool.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\rmimonitor\QuartzMonitorRMIImpl.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\proxy\HttpProxy.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\proxy\ProxyIP.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\rmimonitor\HostParamMonitorRMI.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\processor\AbstractPageProcessor.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\listener\bo\MonitorMessage.java
-F:\v1.1.0_20160802 (2)\v1.1.0_20160802\webgleaner\webgleaner-core\src\main\java\com\hlg\webgleaner\core\rmimonitor\HostParamMonitorRMIImpl.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/bo/Speed.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/RandomGenerator.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/scheduler/EcMongoQueueScheduler.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/rmimonitor/QuartzMonitorRMI.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/processor/ExtractHtmlPageProcessor.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/proxy/RequestParams.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/downloader/HlgSeleniumDownloader.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/bo/MonitorMessage.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/rmimonitor/ManualSpiderRMIImpl.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/TemplateParser.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/downloader/AbstractDownloader.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/MongoClientSingleton.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/config/taskgenerator/TaskGenerator.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/HttpClientUtils.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/useragent/UserAgentStrategy.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/bo/ErrorMessage.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/rmimonitor/HostParamMonitorRMI.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/BeanUtils.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/MongoUtils.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/proxy/ProxyPoolContext.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/rmimonitor/HostParamMonitorRMIImpl.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/bo/SpiderType.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/WebgleanerMonitorCorrector.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/downloader/HttpClientDownloader.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/proxy/ProxyIP.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/UrlUtils.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/bo/ClusterAddress.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/WebgleanerMonitorListener.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/utils/MailUtil.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/bo/FailedUrlBo.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/pipeline/EcgoodsMongoPipeline.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/processor/AbstractPageProcessor.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/rmimonitor/QuartzMonitorRMIImpl.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/downloader/WebDriverPool.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/proxy/HttpProxy.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/rmimonitor/ManualSpiderRMI.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/proxy/ProxyGetter.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/useragent/UserAgentsByFile.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/downloader/SimpleSeleniumDownloader.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/pipeline/FilePipeline.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/LimitQueue.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/SpiderConfigUtils.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/WebgleanerMonitorCorrectorRemote.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/utils/UserAgentContext.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/listener/bo/Monitor.java
+/Users/yangwq/work/project/crawler/web-crawl/webgleaner/webgleaner-core/src/main/java/com/hlg/webgleaner/core/processor/SpecifyPathPageProcessor.java

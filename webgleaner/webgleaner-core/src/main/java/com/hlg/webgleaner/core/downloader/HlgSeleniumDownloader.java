@@ -30,11 +30,12 @@ import us.codecraft.webmagic.selector.PlainText;
 
 /**
  * 添加了重试机制和浏览器模拟操作
+ * 
  * @author linjx
  * @Date 2016年3月16日
  * @Version 1.0.0
  */
-public class LinesumSeleniumDownloader implements Downloader,Closeable {
+public class HlgSeleniumDownloader implements Downloader, Closeable {
 
 	// WebDriverPool
 	private WebDriverPool webDriverPool = WebDriverPool.getInstance();
@@ -45,20 +46,21 @@ public class LinesumSeleniumDownloader implements Downloader,Closeable {
 	private int poolSize = 1;
 
 	private String script = null;
-	
+
 	private Long sleepTime = null;
-	
-	public LinesumSeleniumDownloader(String scriptName,Long sleepTime) throws IOException{
+
+	public HlgSeleniumDownloader(String scriptName, Long sleepTime) throws IOException {
 		Properties prop = new Properties();
 		String path = this.getClass().getClassLoader().getResource("").getPath();
-		InputStream in = new FileInputStream(path+"/chromeDriver.properties");
+		InputStream in = new FileInputStream(path + "/chromeDriver.properties");
 		prop.load(in);
-		this.script = prop.getProperty(scriptName); 
+		this.script = prop.getProperty(scriptName);
 		this.sleepTime = sleepTime;
 	}
-	
-	 public LinesumSeleniumDownloader() { }
-	
+
+	public HlgSeleniumDownloader() {
+	}
+
 	// TODO 改成配置文件
 	@SuppressWarnings("unused")
 	private static final String DRIVER_PHANTOMJS = "phantomjs";
@@ -66,36 +68,36 @@ public class LinesumSeleniumDownloader implements Downloader,Closeable {
 	private static final String PHANTOMJS_DRIVER_KEY = "phantomjs.binary.path";
 	private static final String CHROME_DRIVER_KEY = "webdriver.chrome.driver";
 
-	public LinesumSeleniumDownloader(String chromeDriverPath) {
+	public HlgSeleniumDownloader(String chromeDriverPath) {
 		// System系统属性
 		System.getProperties().setProperty(CHROME_DRIVER_KEY, chromeDriverPath);
 
 	}
 
-	public LinesumSeleniumDownloader(String chromeDriverPath, int hitRatio) {
+	public HlgSeleniumDownloader(String chromeDriverPath, int hitRatio) {
 		// System系统属性
 		System.getProperties().setProperty(CHROME_DRIVER_KEY, chromeDriverPath);
 	}
 
-	public LinesumSeleniumDownloader setSleepTime(Long sleepTime) {
+	public HlgSeleniumDownloader setSleepTime(Long sleepTime) {
 		this.sleepTime = sleepTime;
 		return this;
 	}
 
 	@Override
 	public Page download(Request request, Task task) throws Exception {
-		
+
 		Site site = task.getSite();
-	    if((Integer)request.getExtra(Request.CYCLE_TRIED_TIMES) == null){
-        	request.putExtra(Request.CYCLE_TRIED_TIMES, 0);
-        }
-        if((Integer)request.getExtra(Request.CYCLE_TRIED_TIMES) > site.getCycleRetryTimes()){//超过重试次数，return null。否则往下走。
-        	logger.info("retry times exceeded..."); //判断是否重试.
-        	return null;
-        }
+		if ((Integer) request.getExtra(Request.CYCLE_TRIED_TIMES) == null) {
+			request.putExtra(Request.CYCLE_TRIED_TIMES, 0);
+		}
+		if ((Integer) request.getExtra(Request.CYCLE_TRIED_TIMES) > site.getCycleRetryTimes()) {// 超过重试次数，return
+			logger.info("retry times exceeded..."); // 判断是否重试.
+			return null;
+		}
 		checkInit();
 		WebDriver webDriver;
-		Page page = null;//要返回的page对象；
+		Page page = null;// 要返回的page对象；
 		webDriver = webDriverPool.get(WebDriverPool.DRIVER_CHROME);
 		WebDriver.Options manage = webDriver.manage();
 		if (site.getCookies() != null) {
@@ -106,17 +108,17 @@ public class LinesumSeleniumDownloader implements Downloader,Closeable {
 		}
 		logger.info("downloading page " + request.getUrl());
 		webDriver.get(request.getUrl());
-		//js模拟操作
-		if(script != null){
+		// js模拟操作
+		if (script != null) {
 			logger.info("执行javaScript脚本...");
 			((RemoteWebDriver) webDriver).executeScript(script, "");
-			logger.info("等待"+sleepTime/1000+"s...");
+			logger.info("等待" + sleepTime / 1000 + "s...");
 			Thread.sleep(sleepTime);
 		}
-		
-		//鼠标键盘模拟操作
-		simulate(request,webDriver);
-	
+
+		// 鼠标键盘模拟操作
+		simulate(request, webDriver);
+
 		WebElement webElement = webDriver.findElement(By.xpath("/html"));
 		String content = webElement.getAttribute("outerHTML");
 		page = new Page();
@@ -140,14 +142,16 @@ public class LinesumSeleniumDownloader implements Downloader,Closeable {
 		return page;
 	}
 
-	protected  void simulate(Request request, WebDriver webDriver) throws InterruptedException{};
-	
+	protected void simulate(Request request, WebDriver webDriver) throws InterruptedException {
+	};
+
 	private void checkInit() {
 		/*
 		 * if (webDriverPool == null) { synchronized { webDriverPool =
 		 * WebDriverPool.getInstance(); } }
 		 */
 	}
+
 	@Override
 	public void setThread(int thread) {
 		this.poolSize = thread;
@@ -155,9 +159,9 @@ public class LinesumSeleniumDownloader implements Downloader,Closeable {
 
 	@Override
 	public void close() throws IOException {
-//		if (null != webDriverPool) {
-//			webDriverPool.closeAll();
-//		}
+		// if (null != webDriverPool) {
+		// webDriverPool.closeAll();
+		// }
 	}
 
 }

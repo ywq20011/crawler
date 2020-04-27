@@ -10,7 +10,7 @@
 
 	<artifactId>webmagic-core</artifactId>
 
-	<repositories>
+<!-- 	<repositories>
 		<repository>
 			<id>nexus</id>
 			<name>Team Nexus Repository</name>
@@ -39,7 +39,7 @@
 			<url>http://datalab.com:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
-
+ -->
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
