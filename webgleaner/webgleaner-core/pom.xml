@@ -10,7 +10,7 @@
 
 	<properties>
 		<webmagic>1.1.0-SNAPSHOT</webmagic>
-		<junit>4.11</junit>
+		<junit>4.13.1</junit>
 		<moco>0.9.1</moco>
 		<mongo>3.2.2</mongo>
 		<springframework>4.2.2.RELEASE</springframework>
