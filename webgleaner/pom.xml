@@ -13,7 +13,7 @@
 		<moco>0.9.1</moco>
 		<mongo>3.2.2</mongo>
 		<springframework>4.2.2.RELEASE</springframework>
-		<spring-data-mongo>1.8.4.RELEASE</spring-data-mongo>
+		<spring-data-mongo>3.3.5</spring-data-mongo>
 		<berkeleydb>3.2.76</berkeleydb>
 		<jedis>2.4.2</jedis>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
